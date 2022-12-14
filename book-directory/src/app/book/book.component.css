@@ -1,0 +1,17 @@
+.card{
+    width:200px ;
+    background-color: antiquewhite;
+    list-style: none;
+    text-overflow: ellipsis;
+    margin: 1rem;
+}
+.img{
+    padding: 1rem;
+}
+
+
+.img img{
+    width: 100%;
+}
+
+

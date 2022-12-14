@@ -1,0 +1,15 @@
+<li class="card">
+    <div class="img">
+      <img [src]="book.imageURL" alt="book.title" />
+    </div>
+    <div class="info">
+      <div class="about">
+        <div class="title">{{ book.title | titlecase}}</div>
+        <div class="author">{{ book.author | titlecase}}</div>
+      </div>
+      <div class="amount">{{ book.amount }}</div>
+    </div>
+    <div class="cart-div">
+      <button class="cart-btn" (click)="addToCart()">Add To Cart</button>
+    </div>
+  </li>
